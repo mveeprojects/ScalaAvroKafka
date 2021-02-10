@@ -25,3 +25,9 @@ View all versions of the person-topic schemas [here](http://localhost:8081/subje
 
 View specific information of a given version of the schema by hitting
 an [endpoint like this](http://localhost:8081/subjects/person-topic-value/versions/1)
+
+
+### Sources:
+* [DZone - Kafka Avro Scala Example](https://dzone.com/articles/kafka-avro-scala-example)
+* [YouTube - Write a Kafka Avro Producer Tutorial](https://www.youtube.com/watch?v=_6HTHH1NCK0)
+* [Medium - Kafka-Avro-Scala-Example](https://medium.com/knoldus/kafka-avro-scala-example-a95f8f8cbb52)
