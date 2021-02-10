@@ -25,7 +25,7 @@ object AvroProducer extends App with Config with Logging {
 
   shutdownProducer()
 
-  private def writeToKafka(person: Person)(implicit personToRecord: ToRecord[Person]): Unit = {
+  private def writeToKafka(person: Person): Unit = {
 
     val genericPerson: GenericRecord = new GenericData.Record(schema)
     genericPerson.put("name", person.name)
