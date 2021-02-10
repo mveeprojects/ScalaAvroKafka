@@ -39,7 +39,7 @@ object AvroProducer extends App with Config with Logging {
       case Success(_) =>
         logger.info("Published record to Kafka successfully")
       case Failure(exception) =>
-        logger.info(s"Publishing failed with exception: ${exception.getMessage}")
+        logger.error(s"Publishing failed with exception: ${exception.getMessage}")
     }
   }
 
