@@ -2,7 +2,9 @@
 
 Scala project aimed at demonstrating how to publish/consume records to/from Kafka using Avro schemas.
 
-### Running dependencies (run these then run the producer via IntelliJ)
+Run the dependencies using docker compose as outlined below, then run the producer (AvroProducer.scala) via IntelliJ.
+
+### Running dependencies
 
 From the root of the project run `docker-compose -f docker/docker-compose.yml up -d`
 
